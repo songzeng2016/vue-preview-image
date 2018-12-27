@@ -1,28 +1,33 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <image-preview :urls="urls" :current="current"></image-preview>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import ImagePreview from './components'
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
+  export default {
+    name: 'app',
+    components: {
+      ImagePreview
+    },
+    data() {
+      return {
+        urls: [
+          'https://cdn4.buysellads.net/uu/1/41369/1544727205-bigstock-3.jpg',
+          'https://i.loli.net/2018/10/11/5bbec10f722ea.png'
+        ],
+        current: '',
+      };
+    },
+    mounted() {
+      // this.urls = [
+      //   'https://cdn4.buysellads.net/uu/1/41369/1544727205-bigstock-3.jpg',
+      //   'https://i.loli.net/2018/10/11/5bbec10f722ea.png'
+      // ];
+    }
   }
-}
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

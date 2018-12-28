@@ -1,8 +1,8 @@
-# vue-image-preview
+# vue-preview-image
 
 ## Project setup
 ```
-npm install
+npm install vue-image-preview --save
 ```
 
 ### Compiles and hot-reloads for development

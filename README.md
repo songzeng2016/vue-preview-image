@@ -50,3 +50,10 @@ export default {
   }
 </script>
 ```
+
+### Prop
+
+| Property | Description |
+| ------ | ------ |
+| urls | preivew list |
+| current | current image |

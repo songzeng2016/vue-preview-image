@@ -57,3 +57,7 @@ export default {
 | ------ | ------ |
 | urls | preivew list |
 | current | current image |
+
+## License
+
+[MIT](https://github.com/songzeng2016/vue-preview-image/blob/master/LICENSE) Copyright (c) 2019-present Song Zeng

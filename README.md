@@ -1,5 +1,7 @@
 # vue-preview-image
 
+— A vue picture preview component.
+  
 ## Project setup
 ```
 npm install vue-image-preview --save

@@ -28,7 +28,7 @@ export default {
 
 ```
 <template>
-    <vue-preview-image :urls="urls" :current="current"></vue-preview-image>
+  <vue-preview-image :urls="urls" :current="current"></vue-preview-image>
 </template>
 
 <script>

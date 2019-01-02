@@ -1,31 +1,59 @@
 # vue-preview-image
 
 — A vue picture preview component.
-  
-## Project setup
+
+## Demo
+
+## Installation
+
 ```
-npm install vue-image-preview --save
+npm install vue-preview-image --save
 ```
 
-### Compiles and hot-reloads for development
+## Usage
+
+### Install plugin
+
 ```
-npm run serve
+import VuePreviewImage from 'vue-preview-image';
+
+export default {
+  components: {
+    VuePreviewImage,
+  },
+}
 ```
 
-### Compiles and minifies for production
+### Examples
+
 ```
-npm run build
+<template>
+  <vue-preview-image :urls="urls" :current="current"></vue-preview-image>
+</template>
+
+<script>
+  import VuePreviewImage from 'vue-preview-image';
+
+  export default {
+    components: {
+      VuePreviewImage,
+    },
+    data() {
+      return {
+        urls: [
+          'https://cdn4.buysellads.net/uu/1/41369/1544727205-bigstock-3.jpg',
+          'https://i.loli.net/2018/10/11/5bbec10f722ea.png'
+        ],
+        current: '',
+      };
+    },
+  }
+</script>
 ```
 
-### Run your tests
-```
-npm run test
-```
+### Prop
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+| Property | Description |
+| ------ | ------ |
+| urls | preivew list |
+| current | current image |

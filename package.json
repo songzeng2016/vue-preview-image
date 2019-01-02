@@ -19,6 +19,7 @@
     "image"
   ],
   "author": "songzeng",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/songzeng2016/vue-preview-image/issues"
   },

@@ -1,5 +1,5 @@
 <template>
-    <image-preview :urls="urls" :current="current"></image-preview>
+  <image-preview :urls="urls" :current="current"></image-preview>
 </template>
 
 <script>

@@ -9,6 +9,20 @@
     "lint": "vue-cli-service lint",
     "build-lib": "vue-cli-service build --target lib --name VueImagePreview ./src/components/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songzeng2016/vue-preview-image.git"
+  },
+  "keywords": [
+    "vue",
+    "preview",
+    "image"
+  ],
+  "author": "songzeng",
+  "bugs": {
+    "url": "https://github.com/songzeng2016/vue-preview-image/issues"
+  },
+  "homepage": "https://github.com/songzeng2016/vue-preview-image#readme",
   "dependencies": {
     "vue": "^2.5.17"
   },
